@@ -1,0 +1,89 @@
+/* .navbar {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding-right: 2px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    cursor: pointer;
+    padding: 0.5rem;
+    flex: auto;
+    text-align: center;
+}
+
+.navbar ul li:hover {
+    background-color: #555;
+    color: white;
+    flex: auto;
+} */
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1476357471311-43c0db9fb2b4?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTJ8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+    width: 100%;
+    height: 76.8vh;
+    font-family: 'lato', sans-serif;
+}
+
+.profile {
+    margin: auto;
+    margin-top: 200px;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 48vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.profile .avatar img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: 2%;
+    object-fit: cover;
+}
+
+.profile {
+    padding: 30px;
+}
+
+h1 {
+    color: wheat;
+}
+
+.profile h2,
+p {
+    font-weight: lighter;
+    letter-spacing: 1px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+div.social i {
+    padding: 10px 10px;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s;
+}
+
+div.social i:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 900px) {}
